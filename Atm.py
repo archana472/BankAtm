@@ -4,10 +4,10 @@ class Atm:
         self.pin = pin
 
     def check_balance(self):
-        print("Your balance is 50000")
+        print("Your balance is 6000")
 
     def withdrawl(self,amount):
-        new_amount = 50000 - amount
+        new_amount = 6000 - amount
         print("you have withdrawn amount "+str(amount) +". Your remaining balance is "+ str(new_amount))
 
 def main():
